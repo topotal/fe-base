@@ -1,0 +1,17 @@
+{
+  "name": "fe-base",
+  "version": "0.0.0",
+  "description": "Topotal's frontend boilerplate",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/topotal/fe-base.git"
+  },
+  "author": "sawa-zen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/topotal/fe-base/issues"
+  }
+}

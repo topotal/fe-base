@@ -7,7 +7,7 @@
     "build": "webpack --config webpack.prod.js",
     "test": "npm run  lint && npm run flow",
     "lint": "npm run lint:js && npm run lint:css",
-    "lint:js": "eslint ./src/*",
+    "lint:js": "eslint ./src/**/*.js",
     "lint:css": "stylelint './src/**/*.js'",
     "flow": "flow",
     "flow:install": "flow-typed install",

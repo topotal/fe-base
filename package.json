@@ -5,13 +5,10 @@
   "scripts": {
     "start": "webpack-dev-server --open --mode development --config webpack.dev.js",
     "build": "webpack --mode production --config webpack.prod.js",
-    "test": "npm run  lint && npm run flow",
+    "test": "npm run  lint",
     "lint": "npm run lint:js && npm run lint:css",
     "lint:js": "eslint ./src/**/*.js",
-    "lint:css": "stylelint './src/**/*.js'",
-    "flow": "flow",
-    "flow:install": "flow-typed install",
-    "postinstall": "npm run flow:install"
+    "lint:css": "stylelint './src/**/*.js'"
   },
   "repository": {
     "type": "git",
@@ -47,13 +44,9 @@
     "clean-webpack-plugin": "^0.1.17",
     "eslint": "^4.9.0",
     "eslint-config-airbnb": "^16.1.0",
-    "eslint-plugin-flowtype": "^2.39.1",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-react": "^7.4.0",
-    "flow-bin": "^0.68.0",
-    "flow-status-webpack-plugin": "^0.1.7",
-    "flow-typed": "^2.2.0",
     "html-webpack-plugin": "^3.0.6",
     "node-notifier": "^5.1.2",
     "stylelint": "^9.1.3",

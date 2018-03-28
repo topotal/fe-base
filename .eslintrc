@@ -7,9 +7,6 @@
   "env": {
     "browser": true
   },
-  "plugins": [
-    "flowtype"
-  ],
   "rules": {
     "quote-props": 0,
     "import/prefer-default-export": 0,
@@ -17,11 +14,5 @@
     "no-unused-expressions": 0,
     "global-require": 0,
     "react/no-children-prop": 0,
-    "flowtype/define-flow-type": 1,
-    "flowtype/use-flow-type": 1,
-    "flowtype/require-valid-file-annotation": [
-      2,
-      "always"
-    ]
   }
 }

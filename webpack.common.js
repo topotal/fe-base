@@ -8,11 +8,7 @@ const assetsPath = path.resolve(projectRootPath, './dist');
 
 module.exports = {
   entry: {
-    index: [
-      'babel-polyfill',
-      'whatwg-fetch',
-      `${__dirname}/src/index.js`
-    ],
+    index: `${__dirname}/src/index.js`,
   },
   plugins: [
     new CleanWebpackPlugin([assetsPath], { root: projectRootPath }),

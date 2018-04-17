@@ -3,10 +3,8 @@ const common = require('./webpack.common.js');
 
 module.exports = merge(common, {
   devtool: 'inline-source-map',
-  output: {
-    filename: '[name].js'
-  },
   devServer: {
+    contentBase: 'public',
     host: '0.0.0.0',
     disableHostCheck: true,
     historyApiFallback: true,

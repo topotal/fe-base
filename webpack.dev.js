@@ -1,5 +1,4 @@
 const merge = require('webpack-merge');
-const notifier = require('node-notifier');
 const common = require('./webpack.common.js');
 
 module.exports = merge(common, {
